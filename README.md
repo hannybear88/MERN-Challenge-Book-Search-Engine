@@ -257,4 +257,4 @@ Screenshots
 
 ## Contributors 
 - UCSD Coding Bootcamp
--Hannah Chung 
+- Hannah Chung 
