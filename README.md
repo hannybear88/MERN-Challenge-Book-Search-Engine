@@ -5,7 +5,7 @@ HW Challenge #21
 
 ## Description 
 
-Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
+Our assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
 
 This week, we’ll take starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
 
@@ -34,6 +34,9 @@ To complete the assignment, we’ll need to do the following:
 * [Credits](#Credits)
 * [Contributors](#Contributors)
 
+
+## Installation 
+
 ## Mock Up
 
 Let's start by revisiting the web application's appearance and functionality.
@@ -49,6 +52,7 @@ The user can save books by clicking "Save This Book!" under each search result, 
 A user can view their saved books on a separate page, as shown in the following animation:
 
 ![The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.](./Assets/21-mern-homework-demo-03.gif)
+
 ## Getting Started
 
 In order for this application to use a GraphQL API, you’ll need to refactor the API to use GraphQL on the back end and add some functionality to the front end. The following sections contain details about the files you’ll need to modify on the back end and the front end.
@@ -204,7 +208,46 @@ Additionally, you’ll need to complete the following tasks in each of these fro
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
 
+Screenshots
+
+<!-- - Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)" deployed on Heroku
+
+![deployed to Heroku screenshot](/Assets/images/pwa_JATE_deployedonheroku_screenshot.png)
+
+- Screenshot of J.A.T.E deployed on Heroku with content
+![Text Editor deployed with content](/Assets/images/pwa_JATE_app_installed_with_content_screenshot.png)
+
+- JATE app installation prompt pops up after the user clicks install
+
+![JATE app installation prompt](/Assets/images/pwa_JATE_install_app_prompt_screenshot.png)
+
+- JATE app shows on the desktop
+
+![icon on the desktop](/Assets/images/pwa_JATE_icon_on_desktop_screenshot.png)
+
+- J.A.T.E. app is downloaded
+![JATE app intalled](/Assets/images/pwa_JATE_app_installed_screenshot.png)
+
+- J.A.T.E. app is downloaded with content 
+
+![J.A.T.E. app installed with content](/Assets/images/pwa_JATE_app_installed_with_content_screenshot.png) -->
+
 ## Technologies Used
+
+<!-- ![Technologies](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
+![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
+![Technologies](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
+![Technologies](https://img.shields.io/badge/npm%20package-express-green?style=flat-square&logo=npm)
+![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
+![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB) 
+![Technologies](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
+![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
+![Technologies](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
+![Technologies](https://img.shields.io/badge/npm%20package-express-green?style=flat-square&logo=npm)
+![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
+![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)  -->
 
 ## Support
 
