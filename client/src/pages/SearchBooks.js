@@ -16,7 +16,7 @@ const SearchBooks = () => {
   const [searchInput, setSearchInput] = useState('');
 
   // create state to hold saved bookId values
-  // const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
+  const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
 const [saveBook] = useMutation(SAVE_BOOK)
 
   // set up useEffect hook to save `savedBookIds` list to localStorage on component unmount
@@ -70,7 +70,7 @@ const [saveBook] = useMutation(SAVE_BOOK)
     }
 
     try {
-      await savedBook({
+      await saveBook({
         variables: {book: bookToSave},
         update: cache => {
           const {me} = cache.readQuery({ query: GET_ME});

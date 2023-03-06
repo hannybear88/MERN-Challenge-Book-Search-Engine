@@ -31,7 +31,7 @@ server.applyMiddleware({ app });
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const __dirname = path.dirname("");
+
 const buildPath = path.join(__dirname, "../client/build");
 app.use(express.static(buildPath));
 
