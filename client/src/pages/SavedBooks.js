@@ -9,7 +9,12 @@ import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
-  const [deleteBook] = useMutation(REMOVE_BOOK);
+  const [deleteBook] = useMutation(REMOVE_BOOK,{
+    refetchQueries: [
+      {query: GET_ME}, // DocumentNode object parsed with gql
+      'me' // Query name
+    ],
+  } );
   const userData = data?.me || {};
 
   if(!userData?.username) {
@@ -34,7 +39,6 @@ const SavedBooks = () => {
 
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
-      window.location.reload();
     } catch (err) {
       console.error(err);
     }
